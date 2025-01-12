@@ -88,5 +88,5 @@ const tokenSchema = new Schema({
   },
 });
 
-const Male = mongoose.model("Male", tokenSchema);
-export default Male;
+const Female = mongoose.model("Female", tokenSchema);
+export default Female;
